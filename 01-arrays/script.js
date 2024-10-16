@@ -42,7 +42,8 @@ console.log(isFabioPresent) //string
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf('Lewis'); // number
+console.log(lewisIndex) // result -1, which means that 'Lewis' element doesn't exist, it was replace to 'Patrick'
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
