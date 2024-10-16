@@ -47,7 +47,8 @@ console.log(lewisIndex) // result -1, which means that 'Lewis' element doesn't e
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.join('-'); //string. Doesn't changue the original array
+console.log(teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
