@@ -14,7 +14,7 @@ const fourthTeacher = teachers[3]; //stringa
 console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-let index = teachers.indexOf('Lewis') //number
+let index = teachers.indexOf('Carlo') // teachers.at(4) // give us a number
 console.log(index);
 teachers.splice(index, 1, 'Patrick')
 console.log(teachers);
@@ -43,7 +43,7 @@ console.log(isFabioPresent) //string
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = teachers.indexOf('Lewis'); // number
-console.log(lewisIndex) // result -1, which means that 'Lewis' element doesn't exist, it was replace to 'Patrick'
+console.log(lewisIndex) // result 5
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
