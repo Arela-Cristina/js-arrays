@@ -55,5 +55,5 @@ console.log(teachersString)
 let teachersLenght = teachers.length; //number
 console.log(teachersLenght) 
 
-const isTeachersEmpty = teachersLenght < 0; //boolean
+const isTeachersEmpty = teachersLenght < 1; //boolean
 console.log(isTeachersEmpty) //false
