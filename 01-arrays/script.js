@@ -52,4 +52,8 @@ console.log(teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+let teachersLenght = teachers.length; //number
+console.log(teachersLenght) 
+
+const isTeachersEmpty = teachersLenght < 0; //boolean
+console.log(isTeachersEmpty) //false
