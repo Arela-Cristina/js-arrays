@@ -14,7 +14,7 @@ const fourthTeacher = teachers[3]; //stringa
 console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-let index = teachers.indexOf('Carlo') // teachers.at(4) // give us a number
+let index = teachers.indexOf('Carlo') // teachers.at(4) // give us a number //oppure semplicemente possiamo fare teachers[4]= 'Patrick' - console.log(teachers)
 console.log(index);
 teachers.splice(index, 1, 'Patrick')
 console.log(teachers);
@@ -55,5 +55,5 @@ console.log(teachersString)
 let teachersLenght = teachers.length; //number
 console.log(teachersLenght) 
 
-const isTeachersEmpty = teachersLenght < 1; //boolean
+const isTeachersEmpty = teachersLenght < 1; //boolean  //mpre specific => teachers.lenght ! === 0
 console.log(isTeachersEmpty) //false
