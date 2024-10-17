@@ -22,10 +22,14 @@ const longNames = [];
 for (let i = 0; i < teachers.length; i++) {
   let currentTeacher = teachers[i];
   console.log(currentTeacher)
-  if(currentTeacher.length >= 5){
+  if (currentTeacher.length >= 5) {
     longNames.push(currentTeacher)
   }
 }
 console.log(longNames)
 
 // 3. Rimuovi 'Ed' dall'array teachers
+let newIndex = teachers.indexOf('Ed')
+console.log(newIndex)
+let deleteTeacher = teachers.splice(1, 1);
+console.log(teachers)
